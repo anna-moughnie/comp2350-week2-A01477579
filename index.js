@@ -6,10 +6,11 @@ const mysql = require('mysql2/promise');
 const port = process.env.PORT || 3017;
 
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "comp2350-week2-a01477579-moughnie-4e4e.c.aivencloud.com",
+	user: "avnadmin",
+	password: "AVNS_LJ9Blb2NUYzune_Z1jg",
+	database: "defaultdb",
+	port: 19798,
 	multipleStatements: false
 };
 
